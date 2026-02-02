@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
+import java.util.List;
 
-public interface MultiFolder {
+public interface MultiFolder extends Folder{
+
+    List<Folder> getFolders();
 }
